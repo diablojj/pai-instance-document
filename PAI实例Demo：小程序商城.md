@@ -8,7 +8,9 @@
 ## 1.登录PAI管理页面
 PAI实例购买、查看、访问管理页面请查看 [PAI实例使用指南>>>](https://github.com/diablojj/pai-instance-document/blob/master/使用指南.md)
 
-![image](https://pai0803-1252462967.cos.ap-chengdu.myqcloud.com/1.png)
+<p align='center'>
+<img src='https://pai0803-1252462967.cos.ap-chengdu.myqcloud.com/1.png' title='images' style='max-width:1200px'></img>
+</p>
 
 打开 PAI 实例管理页面，账号、密码为该云服务器的 SSH 登录账号和密码（若忘记密码请前往腾讯云云服务器控制台修改）
 
