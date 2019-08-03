@@ -37,7 +37,7 @@ https://github.com/tumobi/nideshop-mini-program
 将项目导入微信IDE
 
 ### 3-3.修改config内服务器域名
-![Image text](https://github.com/diablojj/paitest/blob/master/demopng1/6.png)
+![Image text](https://github.com/diablojj/paitest/blob/master/demopng1/7.png)
 
 修改 config/api.js 内 ApiRootUrl 为您的PAI实例实际的服务器域名
 
@@ -48,7 +48,7 @@ https://github.com/tumobi/nideshop-mini-program
 #### I.前往「微信开放平台-开发-开发设置-服务器域名」填写PAI实例域名
 #### II.在微信IDE内关闭校验
 
-![Image text](https://github.com/diablojj/paitest/blob/master/demopng1/7.png)
+![Image text](https://github.com/diablojj/paitest/blob/master/demopng1/6.png)
 
 
 ## 4.体验Demo效果
