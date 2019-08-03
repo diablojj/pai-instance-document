@@ -5,9 +5,12 @@ PAI实例的「一键发布」功能提供了快速发布后台应用的能力�
 
 ## PAI发布机制
 
-PAI实例的发布能力依赖 Git项目访问路径以及目录下面对应的 .pai.yml 文件，比如发布应用时流程如下
+PAI实例的发布能力依赖两个信息：
+* 应用代码所在的Git Repo地址
+* Git Repo地址根目录下对应的 .pai.yml 文件，其中包含应用管理的执行命令
 
-* 1.拉取 GitRep 目录内所有文件
+以「发布」为例，当在PAI管理页上点击「发布」时，会执行以下操作：
+* 1.拉取Git项目所有文件
 * 2.执行 .pai.yml 内 start 部分的脚本内容
 
 
@@ -35,4 +38,4 @@ deployScripts:
 * Go：https://github.com/TencentCloudBase/pai-mate-hello-example-go
 * Python：https://github.com/TencentCloudBase/pai-mate-hello-example-py
 
-您可以通过参考每个官方Demo中的 .pai.yml 文件来学会如何
+您可以参考对应语言的官方Demo，然后在自己的项目内加上对应 .pai.yml 文件，根据实际情况微调脚本内容，就是将存量项目改造成支持PAI发布的项目了
