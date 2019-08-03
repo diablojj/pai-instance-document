@@ -38,4 +38,4 @@ deployScripts:
 * Go：https://github.com/TencentCloudBase/pai-mate-hello-example-go
 * Python：https://github.com/TencentCloudBase/pai-mate-hello-example-py
 
-您可以参考对应语言的官方Demo，然后在自己的项目内加上对应 .pai.yml 文件，根据实际情况微调脚本内容，就是将存量项目改造成支持PAI发布的项目了
+您可以参考对应语言的官方Demo，然后在自己的项目内加上对应 .pai.yml 文件，根据实际情况微调脚本内容，就可以将存量项目改造成支持PAI发布的项目了
